@@ -1,38 +1,91 @@
-.App {
-  text-align: center;
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background:linear-gradient(#f0f0f0ee,#fcd09d  ) !important ;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.logo{
+    font-size: 33px;
+text-decoration: none;
+   margin-left: 5.9rem;
+   color: #ff1500ea !important;
 }
+.nav-item{
+    text-decoration: none;
+    margin-bottom: 43px;
+    color: #e23906;
+}
+.nav-items{
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-end;
+    padding-right: 44px;
+    position: relative;
+    
+    top:-33px;
+text-decoration: none;
+}
+ li{
+   list-style: none;
+   padding-right:33px ;
+text-decoration: none;
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
 }
+.header_text{
+    margin-top: 43px;
+}
+h1{
+    font-size: 50px !important;
+    letter-spacing: 3px;
+    padding-left: 5px;
+    border-left: 5px solid #ff0000;
+}
+h1>span{
+color:#e23906 ;
+letter-spacing: 3px;
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
 
-.App-link {
-  color: #61dafb;
 }
+h2{
+    letter-spacing: 3px;
+    color: #ff1500ea;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:600 !important;
+}
+.container{
+    margin-top: 42px;
+    display: flex;
+  justify-content: space-between;
+}
+img{
+  min-width: 520px;
+max-height: 500px !important;
+transform: scaleX(-20%) !important;
+transform: translate(15%,-8%) !important;
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }
+b{
+    color: red;
+}
+p{
+    font-size: 18px;
+letter-spacing: 1.1111px;
+font-family: Arial, Helvetica, sans-serif;
+margin-top: 29px !important;
+}
+.CTA{
+ border: none !important;
+line-height: 35px !important;
+    width: 33%;
+    background-color: #e60000 !important;
+   
+}
+.CTA:hover{
+    background-color: #e23906 !important;
+    color: #fff !important;
+    transition: 0.4s ease-in;
+    transform: scale(1.04);
+} 
