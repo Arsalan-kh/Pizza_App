@@ -76,14 +76,14 @@ letter-spacing: 1.1111px;
 font-family: Arial, Helvetica, sans-serif;
 margin-top: 29px !important;
 }
-.CTA{
+#CTA{
  border: none !important;
 line-height: 35px !important;
     width: 33%;
     background-color: #e60000 !important;
    
 }
-.CTA:hover{
+#CTA:hover{
     background-color: #e23906 !important;
     color: #fff !important;
     transition: 0.4s ease-in;

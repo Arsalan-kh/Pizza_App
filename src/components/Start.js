@@ -10,13 +10,12 @@ function Start(){
                   <div className="buttons">
          <button className="   m-4 btn w-25 btn-danger"  onClick={() => history.push('./ViewOrder')}>ViewOrder</button>
          <button className="   m-4 btn w-25 btn-danger"  onClick={() => history.push('./PlaceOrder')}>PlaceOrder</button>
-         <button  className="  m-4 btn w-25 btn-danger" onClick={() => history.push('./CancelOrder')}>CancelOrder</button>
+        <a href="/CancleOrder" className="  m-4 btn w-25 btn-danger"  onClick={() => history.push('./CancelOrder')}>CancelOrder</a>
          </div>
          </div>
  
         
          
-        
                             
                             
         </>

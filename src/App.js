@@ -61,9 +61,10 @@ function App() {
             <Route  path="/PlaceOrder">
               <PlaceOrder/>
             </Route>
-            <Route path="/CancleOrder">
-             <CancleOrder/>
-            </Route>
+            <Route  path="/CancleOrder" component={CancleOrder}/>
+             
+           
+
            
          </Switch>
        </div>
@@ -71,7 +72,7 @@ function App() {
 
 
     </Router>
-   
+  
 </>
    )};
 

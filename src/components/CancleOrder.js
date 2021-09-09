@@ -1,29 +1,29 @@
 import React from 'react';
-import swal from 'sweetalert';
-
+import '../components/style.css'
 function CancleOrder(){
     return(
         <>
-   
-        <div id="app-cover">
-      <input onClick = {() => CancleOrder()} type="checkbox" id="checkbox"/>
-      <div id="bin-icon">
-        <div id="lid"></div>
-        <div id="box">
-          <div id="box-inner">
-            <div id="bin-lines"></div>
-          </div>
-        </div>
-      </div>
-      <div id="layer"></div>
+<div className="container_cancleorder">
+  <div className="interior">
+    <a className="btn btn_model" href="#open-modal">👋Are you Sure?</a>
+  </div>
+</div>
+<div id="open-modal" className="modal-window">
+  <div>
+    <a href="/CancleOrder" title="Close" className="modal-close">Close</a>
+    <h1>Your Order Has Been Cancelled</h1>
+    <div>For Place a New order Kindly click the link Below 👇</div>
+    <div><small style={{color:"red"}}>Check out</small></div>
+    <a href="/PlaceOrder">👉 Click Here for Order</a></div>
     </div>
+<div/>
+
+
        </>
     
     
     )}
-    
- 
-    
+  
 
 
 export default CancleOrder;

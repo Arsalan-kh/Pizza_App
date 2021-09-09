@@ -1,6 +1,6 @@
 import React from 'react';
 import swal from 'sweetalert';
-import "./style.css"
+import "../components/style.css"
 
 function PlaceOrder(){
     return(
